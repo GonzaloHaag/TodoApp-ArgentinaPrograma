@@ -1,0 +1,10 @@
+.taskList-container{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.taskList-container>p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

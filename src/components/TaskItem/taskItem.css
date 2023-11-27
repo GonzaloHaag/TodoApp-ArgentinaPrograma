@@ -1,0 +1,36 @@
+.taskItem-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(207, 198, 198);
+    padding: 10px;
+    border-radius: 5px;
+}
+.taskItem-container>.task-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.taskItem-container>.task-item>h3{
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 600px;
+    overflow-wrap: break-word; /**Para que la tarea siga abajo si es muy larga y no sobrepase el ancho*/
+}
+.taskCompleted{
+    text-decoration: line-through;
+}
+.taskItem-container>.task-item>span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buttons-container>svg{
+    cursor: pointer;
+}
